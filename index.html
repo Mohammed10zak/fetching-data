@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>ToDO List</title>
+</head>
+
+<body>
+    <h1>Daily Todo</h1>
+    <div class="fixed">
+        <div id="card"></div>
+    </div>
+    <div class="position-fixed">
+        <a href="#add_new_card" class="add" id="add_card">+</a>
+        <div class="create_to_do">
+            <button type="submit" id="un_create"><img src="false.png" /></button>
+            <button id="create"><img class="yyy" src="true.png" /></button>
+        </div>
+    </div>
+    <div class="new_title_do">Add New Card</div>
+    <form id="add_new_card">
+        <input type="text" id="title_do" placeholder="add new title" />
+        <input type="text" id="post_do" placeholder="add new post" />
+    </form>
+</body>
+
+</html>
