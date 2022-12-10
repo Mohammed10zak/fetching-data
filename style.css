@@ -99,6 +99,7 @@ h1 {
     border: 1px solid #e2e8f0;
     border-radius: 50%;
     display: none;
+
 }
 
 
@@ -151,4 +152,20 @@ input {
 
 #post_do {
     height: 70px;
+}
+
+
+/* responsive page */
+@media (max-width : 768px) {
+    #add_new_card {
+        width: 400px
+    }
+
+    .todo_card {
+        width: 400px
+    }
+
+    h1 {
+        font-size: 80px
+    }
 }
